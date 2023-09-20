@@ -24,3 +24,34 @@
 .rank{
  color:green;
 }
+
+.table {
+    border-collapse: separate;
+    width: 80%; 
+    margin: 20px auto;
+}
+
+
+th {
+    background-color:grey;
+    border: 1px solid black; 
+    text-align: center;
+    padding: 10px;
+    color:white;
+    
+}
+
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color:beige; 
+}
+
+tr:nth-child(odd) {
+    background-color:antiquewhite;
+}
