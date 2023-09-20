@@ -21,8 +21,18 @@
 
 }
 
+.nora:hover{
+    box-shadow: 2px 2px 10px black;
+    border:2px solid red;
+}
+
 .rank{
  color:green;
+}
+
+.rank:hover{
+    box-shadow: 2px 2px 10px black;
+    border:2px solid blue;
 }
 
 .table {
